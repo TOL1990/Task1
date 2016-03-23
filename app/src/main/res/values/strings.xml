@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="col_1_1">Created_default</string>
+    <string name="creationTime">creationTime</string>
+</resources>
