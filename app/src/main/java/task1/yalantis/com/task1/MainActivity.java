@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         //Reload old vers.
         ImageView img1 = (ImageView) findViewById(R.id.image1);
         ImageView img2 = (ImageView) findViewById(R.id.image2);
-        Picasso.with(this).load(R.drawable.task1pict1).into(img1);
-        Picasso.with(this).load(R.drawable.task1pict2).into(img2);
+        Picasso.with(this).load("http://savepic.ru/9172695.png").into(img1);
+        Picasso.with(this).load("http://savepic.ru/9117399.png").into(img2);
 
     }
 
