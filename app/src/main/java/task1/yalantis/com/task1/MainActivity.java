@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadImages() {
-
+        //Reload old vers.
         ImageView img1 = (ImageView) findViewById(R.id.image1);
         ImageView img2 = (ImageView) findViewById(R.id.image2);
         Picasso.with(this).load(R.drawable.task1pict1).into(img1);
